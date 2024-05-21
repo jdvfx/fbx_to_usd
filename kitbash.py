@@ -131,6 +131,25 @@ pr2mtlx={
     "baseNormal"    :"normal",
     "emitcolor"     :"emission_color"
 }
+""" to check """
+    # "rough"         :"specular_roughness",
+    # "sheen"           :"sheen",
+    # "metallic"    :"metalness"
+# }
+
+"""
+from Kitbash3D's website:
+All of our materials come with the following texture maps:
+
+Base Color
+Roughness
+Metalness
+Normal Map
+Height Map
+Opacity Map
+Emissive Map
+
+"""
 
 principledshaders = hou.vopNodeTypeCategory().nodeTypes()["principledshader::2.0"].instances()
 
@@ -156,4 +175,3 @@ for shader in principledshaders:
 
 hou.setUpdateMode(hou.updateMode.OnMouseUp)
     
-
