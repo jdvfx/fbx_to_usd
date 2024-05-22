@@ -138,16 +138,17 @@ pr2mtlx={
 # }
 
 """
-from Kitbash3D's website:
-All of our materials come with the following texture maps:
+> Kitbash passes on disk:
 
-Base Color
-Roughness
-Metalness
-Normal Map
-Height Map
-Opacity Map
-Emissive Map
+ao
+basecolor
+emissive
+height
+metallic
+normal
+opacity
+refraction
+roughness
 
 """
 
